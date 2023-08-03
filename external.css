@@ -1,0 +1,13 @@
+div{
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	border: 10px solid red;
+
+}
+h1{
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	text-align: center;
+}

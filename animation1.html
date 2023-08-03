@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			height: 600px;
+			width: 600px;
+			animation-name: example;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			background-size: 100% 100%;
+		}
+		/*@keyframes example{
+			from{
+				background-color: red;
+			}
+			to{
+				background-color: blue;
+			}
+		}*/
+		@keyframes example{
+			0%{
+				background-image: url(image1.jpg);
+				
+			}
+			20%{
+				background-image: url(image2.jpg);
+			}
+			40%{
+				background-image: url(image3.jpg);
+			}
+			60%{
+				background-image: url(image2.jpg);
+			}
+			80%{
+				background-image: url(image1.jpg);
+			}
+			100%{
+				background-image: url(image3.jpg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+
+</body>
+</html>

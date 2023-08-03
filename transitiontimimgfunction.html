@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			transition: width 2s;
+		}
+		#div1{transition-timing-function: linear;}
+		#div2{transition-timing-function: ease-in;}
+		#div3{transition-timing-function: ease;}
+		#div4{transition-timing-function: ease-in-out;}
+		#div5{transition-timing-function: ease-out;}
+		div:hover{
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+<div id="div4"></div>
+<div id="div5"></div>
+</body>
+</html>
